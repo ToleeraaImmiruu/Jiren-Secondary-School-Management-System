@@ -1,0 +1,76 @@
+.support_body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73vh;
+  margin: 0;
+} 
+
+.card {
+  background-color: rgb(238, 238, 238);
+  padding: 30px 40px;
+  border-radius: 10px;
+ 
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 0px 2px 5px rgb(109, 109, 109);
+}
+
+.card h1 {
+  color: #004080;
+  font-variant: small-caps;
+  font-weight:700px; 
+  margin-bottom: 20px;
+  
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card input[type="submit"] {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+ 
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+}
+
+.card input[type="submit"]:hover {
+  background-color: #0066cc;
+}
+
+
+.card textarea {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 14px;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.card textarea:focus {
+  border-color: #004080;
+  outline: none;
+}
