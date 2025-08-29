@@ -6,23 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/add_subject.css" type="text/css">
 </head>
-<body>
-    
+<body
     <?php
     include '../dashboard/header.php'?>
     <div class="layout">
         <?php
         include '../dashboard/left_dash.php'
         ?>
-
  <div class="container">
-
  <?php
         if(isset($_SESSION['status'])){
         echo("<h3 id='status'>".$_SESSION['status']." !</h3>");
         unset($_SESSION['status']);
         }?>
-
 <h1>ADD SUBJECT</h1>
 <form action="../databases/add_Subject_db.php" method="post" enctype="multipart/form-data" id="addsubject">
 <div class="subject_name">
@@ -31,7 +27,6 @@
 <img src="" alt="v" id="isubname" class="image">
 <div id="esubname" class="error">error</div>
 </div>
-
 <div class="grade">
 <label for="grade" class="label">GRADE</label> <br>
 <input type="number" name="grade" id="grade" min="9" max="12" placeholder="eg: 9">
@@ -53,7 +48,6 @@
 
 </form>
 </div>
-
 <script src="../js/add_subject.js"></script>
     </div>
     
