@@ -1,0 +1,75 @@
+/* body{
+display: grid;
+margin-top: 20px;
+grid-template-columns: auto auto;
+column-gap: 10px;
+row-gap: 30px;
+    background-color: #B3D8A8;
+    }  */
+    
+
+    th.title{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    th.subtitle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        width: 50%;
+        border: 2px solid rgb(13, 13, 78);
+        background-color: #4ED7F1;
+    }
+    td{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        font-weight: 550;
+        border: 2px solid rgb(13, 13, 78);
+    }
+    
+    table{
+        border-collapse: collapse;
+        /* width: 45%; */
+        border: 3px solid rgb(13, 13, 78);
+        margin-bottom: 10px;
+        border: 2px solid #6F826A;
+       
+    }
+    /* .grade_9{
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    }
+  
+    .grade_10{
+        float: left;
+        margin-right: 5px;
+    }
+   
+    
+    .grade_11{
+        float: left;
+    }
+    
+    .grade_12{
+        float: left;
+        margin-right: 5px;
+    } */
+    .edit, .delete {
+        &:hover{
+        transform: scale(1.2);
+        }}
+
+.container{
+width: 80%;
+margin: auto;
+margin-top: 5px;
+height: 82vh;
+        }
+
+    .layout{
+            display: flex;
+        }

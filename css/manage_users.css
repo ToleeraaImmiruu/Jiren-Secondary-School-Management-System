@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    
+    } 
+    
+
+    .students,.directors,.teachers th.title{
+      
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px;
+    }
+
+    th.title{
+        
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+ 
+    th.subtitle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        border: 2px solid rgb(13, 13, 78);
+        background-color: #4ED7F1;
+    }
+    td{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 550;
+        border: 2px solid #6F826A;
+    }
+    
+    table{
+        border-collapse: collapse;
+        border: 2px solid #6F826A;
+        height: fit-content;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .edit, .delete {
+    &:hover{
+    transform: scale(1.2);
+    }}
+    .popup {
+        display: none;
+        position: fixed;
+        right: 0;
+        width: 40%;
+        height: 60%;
+    }
+
+    
+    .id_change{
+    display: none;
+    }
+
+    .layout{
+        display: flex;
+        }
